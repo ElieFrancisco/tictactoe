@@ -12,6 +12,7 @@ import Toggle from './Toggle';
 import LoginControl from './LoginControl';
 import Mailbox from './Mailbox';
 import Liste from './Liste';
+import NameForm from './NameForm';
 
 // function Tick2(){
 //     const element= (
@@ -48,6 +49,8 @@ ReactDOM.render(<Liste numbers={numbers} />, document.getElementById('popo3'));
 
 const messages = ["coucou, j'espère que tu passes une bonne journée", "Salut", "ça va?"]
 ReactDOM.render(<Mailbox messagesnonlus={messages}/>, document.getElementById('popo2'));
+ReactDOM.render(<NameForm />, document.getElementById('popo4'));
+
 // Si dessous une manière d'appeler un composant à partir d'une fonction
 // ReactDOM.render(<Tick />, document.getElementById('popo'));
 
